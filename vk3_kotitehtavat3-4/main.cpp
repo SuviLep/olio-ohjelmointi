@@ -6,13 +6,14 @@ using namespace std;
 
 int main()
 {
-    Chef kokki("Gordon Ramsey");
-    kokki.makeSalad();
-    kokki.makeSoup();
 
 
-    ItalianChef kokki2("Anthony Bourdain");
+
+    ItalianChef kokki2("Mario", 50, 200);
     kokki2.makePasta();
+
+
+
 
     return 0;
 }

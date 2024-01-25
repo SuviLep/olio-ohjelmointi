@@ -6,12 +6,20 @@
 class ItalianChef:public Chef
 {
 public:
-    ItalianChef(string s);
+    ItalianChef(string, int, int);
     string getName();
     void makePasta();
 
+
     //Destruktorin esittely
     ~ItalianChef();
+
+private:
+    int jauhot;
+    int vesi;
+
+
+
 };
 
 

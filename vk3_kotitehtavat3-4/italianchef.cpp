@@ -1,8 +1,11 @@
 #include "italianchef.h"
 
-ItalianChef::ItalianChef(string s):Chef(s)
+ItalianChef::ItalianChef(string s,int a, int b):Chef(s)
 {
     // jos halutaan suorittaa Chef luokan alustus ennen tätä
+    jauhot= a;
+    vesi= b;
+    name = s;
 }
 
 string ItalianChef::getName()
@@ -12,7 +15,9 @@ string ItalianChef::getName()
 
 void ItalianChef::makePasta()
 {
-    cout<<"Chef "<<name<<" makes pasta"<<endl;
+    cout<<"Chef "<<getName()<<" tekee pastaa erikoisreseptilla "<<endl;
+    cout<<"Chef "<<getName()<<" kayttaa jauhoja "<<jauhot<<endl;
+    cout<<"Chef "<<getName()<<" kayttaa vetta "<<vesi<<endl;
 }
 ItalianChef::~ItalianChef()
 {
