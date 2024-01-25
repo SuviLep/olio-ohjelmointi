@@ -50,8 +50,5 @@ void game::printGameResult()
         std::cout <<"Hienoa, luku oli oikein" << std::endl;
      // Tulosta arvausten määrä
         std::cout << "Pelissa tarvittiin " << numOfGuesses << " arvausta." << std::endl;
-
     }
-
-
 }
