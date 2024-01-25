@@ -9,7 +9,6 @@ public:
     Chef(string);
     void makeSalad(void);
     void makeSoup();
-    void makePasta();
     //destruktorin esittely;
     ~Chef();
 
