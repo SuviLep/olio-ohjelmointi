@@ -12,12 +12,11 @@ void Asunto::maarita(int a, int n)
     cout << "Asunto maaritetty asukkaita = "<<asukasmaara<<" nelioita = "<< neliot << endl;
 }
 
-double Asunto::laskeKulutus(double h,bool printOrNot)
+double Asunto::laskeKulutus(double h)
 {
     double kulutus = h*asukasmaara * neliot;
-    if(printOrNot==true)
     {
-        cout << "Asunnon kulutus, kun hinta = "<<h<<" on "<< kulutus << endl;
+     cout << "Asunnon kulutus, kun hinta = "<<h<<" on "<< kulutus << endl;
     }
     return kulutus;
 }

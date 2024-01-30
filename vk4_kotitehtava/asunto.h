@@ -9,7 +9,7 @@ class Asunto
 public:
     Asunto();
     void maarita(int,int);
-    double laskeKulutus(double,bool);
+    double laskeKulutus(double);
 
     int asukasmaara;
     int neliot;
