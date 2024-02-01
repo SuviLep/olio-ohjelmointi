@@ -9,11 +9,14 @@ class Kerrostalo
 {
 public:
     Kerrostalo();
-
+//as1+as2
     Katutaso eka;
+
     Kerros toka;
     Kerros kolmas;
-    double laskeKulutus(double);
+    Kerros neljas;
+
+    double laskeKulutus(double hinta);
 
 };
 

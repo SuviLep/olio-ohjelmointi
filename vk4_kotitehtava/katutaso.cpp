@@ -2,12 +2,13 @@
 
 Katutaso::Katutaso() {
 
-    cout << "katutaso luotu johon edeltvt 2 asuntoa listty"<<endl;
-    cout <<"Maaritetaan 2 kappaletta katutason asuntoja."<<endl;
+    cout << "***katutaso luotu johon edeltavat 2 asuntoa lisatty"<<endl;
+
 
 }
 void Katutaso::maaritaAsunnot()
 {
+    cout<< "Maaritellaan kerros"<<endl;
     as1.maarita(2,100);
     as2.maarita(3,150);
 }
