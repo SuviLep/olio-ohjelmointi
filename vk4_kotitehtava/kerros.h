@@ -8,7 +8,13 @@ class Kerros
 public:
     Kerros();
     void maaritaAsunnot();
-    double laskeKulutus(double);
+    double laskeKulutus(double hinta);
+
+    Asunto as1;
+    Asunto as2;
+    Asunto as3;
+    Asunto as4;
+
 
 };
 

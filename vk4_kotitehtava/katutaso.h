@@ -9,7 +9,7 @@ class Katutaso: public Kerros
 public:
     Katutaso();
     void maaritaAsunnot();
-    double laskeKulutus(void);
+    double laskeKulutus(double hinta);
 
     Asunto as1;
     Asunto as2;
