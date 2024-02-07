@@ -10,9 +10,11 @@ public:
     Katutaso();
     void maaritaAsunnot();
     double laskeKulutus(double hinta);
+    ~Katutaso();
 
-    Asunto as1;
-    Asunto as2;
+private:
+    Asunto*as1;
+    Asunto*as2;
 };
 
 #endif // KATUTASO_H
