@@ -2,15 +2,17 @@
 #define KATUTASO_H
 #include "asunto.h"
 #include "kerros.h"
+#include "VirtualKerros.h"
 
 
-class Katutaso: public Kerros
+
+class Katutaso: public VirtualKerros
 {
 public:
     Katutaso();
-    void maaritaAsunnot();
-    double laskeKulutus(double hinta);
-    ~Katutaso();
+    virtual ~Katutaso();
+    virtual void maaritaAsunnot() override;
+    virtual double laskeKulutus(double hinta) override;
 
 private:
     Asunto*as1;

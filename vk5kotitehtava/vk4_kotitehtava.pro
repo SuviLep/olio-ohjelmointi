@@ -11,6 +11,7 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
+    VirtualKerros.h \
     asunto.h \
     katutaso.h \
     kerros.h \

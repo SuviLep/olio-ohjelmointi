@@ -2,16 +2,17 @@
 #ifndef KERROS_H
 #define KERROS_H
 
+#include "VirtualKerros.h"
 #include "asunto.h"
 
 
-class Kerros
+class Kerros: public VirtualKerros
 {
 public:
     Kerros();
-    ~Kerros();
-    void maaritaAsunnot();
-    double laskeKulutus(double hinta);
+    virtual ~Kerros();
+    virtual void maaritaAsunnot() override;
+    virtual double laskeKulutus(double hinta) override;
 
 private:
     Asunto *as1;
