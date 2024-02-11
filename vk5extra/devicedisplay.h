@@ -3,15 +3,15 @@
 
 #include "devicebaseclass.h"
 
-class DeviseDisplay: public DeviceBaseClass
+class DeviceDisplay : public DeviceBaseClass
 {
 public:
-    DeviseDisplay();
+    DeviceDisplay();
+    short getDisplayResolution() const;
     void setDisplayResolution();
-    short getDisplaRresolution() const;
 
 private:
-    short displayResolution =0;
+    short displayResolution = 0;
 };
 
 #endif // DEVICEDISPLAY_H

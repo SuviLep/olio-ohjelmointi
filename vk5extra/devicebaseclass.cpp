@@ -1,3 +1,20 @@
 #include "devicebaseclass.h"
+#include <iostream>
 
-DeviceBaseClass::DeviceBaseClass() {}
+using namespace std;
+
+
+DeviceBaseClass::DeviceBaseClass()
+{
+
+}
+
+short DeviceBaseClass::getDeviceID() const
+{
+    return deviceID;
+}
+
+void DeviceBaseClass::setDeviceID()
+{
+    cin >> deviceID;
+}

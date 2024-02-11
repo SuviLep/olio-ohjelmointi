@@ -3,16 +3,15 @@
 
 #include "devicebaseclass.h"
 
-class DeviceTouchPad: public DeviceBaseClass
-
+class DeviceTouchPad : public DeviceBaseClass
 {
 public:
     DeviceTouchPad();
+    short getTouchPadSensitivity() const;
     void setTouchPadSensitivity();
-    short getTouchPadSensitivity();
 
 private:
-    short touchPadSensitivity;
+    short touchPadSensitivity = 0;
 };
 
 #endif // DEVICETOUCHPAD_H

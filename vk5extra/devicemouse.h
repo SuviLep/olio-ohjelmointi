@@ -3,15 +3,15 @@
 
 #include "devicebaseclass.h"
 
-class DeviseMouse: public DeviceBaseClass
+class DeviceMouse: public DeviceBaseClass
 {
 public:
-    DeviseMouse();
+    DeviceMouse();
     void setPrimaryButton();
-    short getPrimaryButton();
+    short getPrimaryButton() const;
 
 private:
-    short primaryButton;
+    short primaryButton= 0;
 };
 
 #endif // DEVICEMOUSE_H

@@ -18,9 +18,9 @@ public:
     void uiShowDeviceInformation();
 
 private:
-    DeviseMouse* objectDeviceMouse;
+    DeviceMouse* objectDeviceMouse;
     DeviceTouchPad* objectDeviceTouchPad;
-    DeviseDisplay* objectDeviceDisplay;
+    DeviceDisplay* objectDeviceDisplay;
 };
 
 #endif // MYDEVICEUI_H

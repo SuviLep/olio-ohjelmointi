@@ -1,9 +1,13 @@
+#include "mydeviceui.h"
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    Mydeviceui objectDevice;
+
+    objectDevice.uiShowMenu();
+
     return 0;
+
 }
